@@ -1,7 +1,7 @@
 import React from 'react';
 import bannarImg from '../../../assets/images/raiyanvab.jpg'
 import styles from './Banner.module.css'
-// import RaiyanResume from '../../../assets/files/RaiyanResume.pdf'
+import RaiyanResume from '../../../assets/files/RaiyanResume.pdf'
 // import { Link } from 'react-router-dom';
 
 
@@ -14,8 +14,8 @@ const Banner = () => {
                     <p>Hi there ! I am Raiyan Kabir</p>
                     <h1 className="text-5xl font-bold">Freelance Web Developer</h1>
 
-                    <button className="btn btn-primary">
-                        {/* <a className='btn btn-primary' href={RaiyanResume} download >Download Resume</a> */}
+                    <button className="btn btn-primary mt-5">
+                        <a className='btn btn-primary' href={RaiyanResume} download >Download Resume</a>
                     </button>
 
 

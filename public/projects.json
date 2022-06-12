@@ -1,22 +1,37 @@
 [
     {
         "name": "Hiker's Warehouse",
-        "img": "https://i.ibb.co/jJz7PJN/Web-capture-12-6-2022-8240-assignment-11-7e69c-web-app.jpg"
+        "img": "https://i.ibb.co/J7pSSMD/Web-capture-12-6-2022-8240-assignment-11-7e69c-web-app.jpg",
+        "live": "https://assignment-11-7e69c.web.app/",
+        "code": "https://github.com/Raiyan109/warehouse-management-client",
+        "description": "Built landing page on warehouse management."
     },
     {
         "name": "Leviathan",
-        "img": "https://i.ibb.co/crS5jtP/screencapture-assignment-12-e077a-web-app-2022-06-12-08-27-54.png"
+        "img": "https://i.ibb.co/V2NQK25/screencapture-assignment-12-e077a-web-app-2022-06-12-08-27-54.png",
+        "live": "https://assignment-12-e077a.web.app/",
+        "code": "https://github.com/Raiyan109/manufacturer-website",
+        "description": "Executed a manufacturer website with an awesome UI."
     },
     {
         "name": "RKK Tution",
-        "img": "https://i.ibb.co/kxcNXwJ/screencapture-assignment-10-4181d-web-app-2022-06-12-08-31-08.png"
+        "img": "https://i.ibb.co/cy3jYzj/screencapture-assignment-10-4181d-web-app-2022-06-12-08-31-08.png",
+        "live": "https://assignment-10-4181d.web.app/",
+        "code": "https://github.com/Raiyan109/independent-service-provider",
+        "description": "Made a simple react SPA about an independent service provider."
     },
     {
         "name": "Uttara Convention Center",
-        "img": "https://i.ibb.co/dtcVfQ4/Web-capture-12-6-2022-84012-127-0-0-1.jpg"
+        "img": "https://i.ibb.co/hH29hTn/Web-capture-12-6-2022-84012-127-0-0-1.jpg",
+        "live": "https://convention-center-deb41.web.app/",
+        "code": "https://github.com/Raiyan109/convention-center",
+        "description": "Its a amazing site"
     },
     {
         "name": "Watch Review Site",
-        "img": "https://i.ibb.co/zxJjQMt/screencapture-snazzy-griffin-d22852-netlify-app-home-2022-06-12-08-30-33.png"
+        "img": "https://i.ibb.co/qYRBT6c/screencapture-snazzy-griffin-d22852-netlify-app-home-2022-06-12-08-30-33.png",
+        "live": "https://snazzy-griffin-d22852.netlify.app/home",
+        "code": "https://github.com/Raiyan109/product-analysis-website-assign-9",
+        "description": "I have designed the project as a watch review site"
     }
 ]

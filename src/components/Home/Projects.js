@@ -12,7 +12,10 @@ const Projects = () => {
     }, [])
     return (
         <div>
+            <div className='flex items-center justify-center'><h1 className="text-5xl font-bold mt-10 mb-10">My Projects</h1></div>
+
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:m-3 sm:ml-2 justify-items-center'>
+
                 {
                     projects.map(project => <Project
                         key={project._id}
