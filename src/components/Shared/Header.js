@@ -24,7 +24,7 @@ const Header = () => {
                         <Link to="/contact"><a>Contact</a></Link>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <a class="btn btn-ghost normal-case text-xl">Raiyan's Portfolio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
@@ -43,7 +43,7 @@ const Header = () => {
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Get started</a>
+                <a class="btn">Hire Me</a>
             </div>
         </div>
     );

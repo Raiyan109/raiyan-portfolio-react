@@ -18,62 +18,29 @@ const Contact = () => {
             });
     };
 
-    // const { register, formState: { errors }, handleSubmit } = useForm();
-
-    // const onSubmit = data => {
-    //     console.log(data);
-
-    //     emailjs.sendForm('gmail', 'template_dx3kt4x', form.current, 'W_0i0So-npwUb6b5D')
-    //         .then((result) => {
-    //             console.log(result.text);
-    //         }, (error) => {
-    //             console.log(error.text);
-    //         });
-
-    // };
 
     return (
-        // <form onSubmit={handleSubmit(onSubmit)}>
-        //     <label>Name</label>
-        //     <input type="text" name="user_name"
-        //         {...register("name", {
-        //             required: {
-        //                 value: true,
-        //                 message: 'Name is Required'
-        //             }
-        //         })} />
-        //     <label>Email</label>
-        //     <input type="email" name="user_email"
-        //         {...register("email", {
-        //             required: {
-        //                 value: true,
-        //                 message: 'Email is Required'
-        //             },
-        //             pattern: {
-        //                 value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
-        //                 message: 'Provide a valid email'
-        //             }
-        //         })}
-        //     />
-        //     <label>Message</label>
-        //     <textarea name="message"
-        //         {...register("message", {
-        //             required: {
-        //                 value: true,
-        //                 message: 'message is Required'
-        //             }
-        //         })}
-        //     />
-        //     <input type="submit" value="Send" />
-        // </form>
-        <form ref={form} onSubmit={sendEmail} id='contact-form'>
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
+
+        <form className='w-full max-w-lg' ref={form} onSubmit={sendEmail} id='contact-form'>
+            <label className='block uppercase tracking-wide font-bold mb-2'>Name</label>
+            <input
+                className='appearance-none block w-full '
+                type="text" name="user_name" />
+            <label
+                className='block uppercase tracking-wide font-bold mb-2'
+            >Email</label>
+            <input
+                className='appearance-none block w-full '
+                type="email" name="user_email" />
+            <label
+                className='block uppercase tracking-wide font-bold mb-2'
+            >Message</label>
+            <textarea
+                className='appearance-none block w-full '
+                name="message" />
+            <input
+                className='btn btn-outline mt-3'
+                type="submit" value="Send" />
         </form>
     );
 };
