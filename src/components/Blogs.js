@@ -1,13 +1,15 @@
 import React from 'react';
+import Back from './Shared/Back';
 
 const Blogs = () => {
     return (
         <div>
+            <Back></Back>
             <div class="relative h-screen w-full flex items-center justify-center bg-cover bg-center text-center bg-no-repeat" style={{
                 backgroundImage: "url(https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)",
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center'
+                backgroundRepeat: 'no-repeat'
+                // backgroundSize: 'cover',
+                // backgroundPosition: 'center'
             }}>
                 <div class="absolute top-0 right-0 bottom-0 left-0 bg-gray-900 opacity-75"></div>
 

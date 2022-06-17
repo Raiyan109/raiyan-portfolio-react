@@ -25,12 +25,12 @@ const Header = () => {
                         <li><Link to="/contact"><a>Contact</a></Link></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Raiyan's Portfolio</a>
+                <a href='/' class="btn btn-ghost normal-case text-xl">Raiyan's Portfolio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li><a>About</a></li>
-                    <Link to="/blogs"><li><a>Blogs</a></li></Link>
+                    {/* <Link to="/blogs"><li><a>Blogs</a></li></Link> */}
                     {/* <li tabindex="0">
                         <a>
                             Parent
