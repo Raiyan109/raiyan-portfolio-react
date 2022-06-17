@@ -9,13 +9,13 @@ const Project = ({ project }) => {
     }
     const { img, name, _id } = project
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-100 shadow-xl border-x-4 border-amber-400">
             <figure><img className='min-h-full' src={img} alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title">{name}</h2>
 
                 <div class="card-actions justify-end">
-                    <button onClick={goToDetails} class="btn btn-primary">Details</button>
+                    <button onClick={goToDetails} class="btn btn-outline ">Details</button>
                 </div>
             </div>
         </div>
