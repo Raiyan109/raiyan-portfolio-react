@@ -9,8 +9,8 @@ const Project = ({ project }) => {
     }
     const { img, name, _id } = project
     return (
-        <div class="card w-96 bg-base-100 shadow-xl border-x-4 border-amber-400">
-            <figure><img className='min-h-full' src={img} alt="Shoes" /></figure>
+        <div class="card w-96 bg-base-100 shadow-xl border-x-4 border-amber-400 overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-95 sm:h-80 lg:h-96">
+            <figure><img style={{ height: "200px" }} className='h-full w-full object-cover' src={img} alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="card-title">{name}</h2>
 

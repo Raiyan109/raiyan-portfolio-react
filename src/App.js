@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Details from './components/Home/Details';
 import Announcement from './components/Shared/Announcement';
 import Blogs from './components/Blogs';
+import Footer from './components/Shared/Footer';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/blogs' element={<Blogs />}></Route>
         <Route path='/project/:id' element={<Details />}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

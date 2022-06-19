@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png'
 
 const Header = () => {
     return (
@@ -25,6 +26,7 @@ const Header = () => {
                         <li><Link to="/contact"><a>Contact</a></Link></li>
                     </ul>
                 </div>
+                {/* <img style={{ height: "50px" }} src={logo} alt="" /> */}
                 <a href='/' class="btn btn-ghost normal-case text-xl">Raiyan's Portfolio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
