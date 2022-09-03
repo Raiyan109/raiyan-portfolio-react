@@ -1,3 +1,6 @@
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 import styles from './Experience.module.css'
 const Experience = () => {
@@ -10,6 +13,14 @@ const Experience = () => {
             <div className={styles.frontendContainer}>
                 <h1 className='flex justify-center items-center pt-5 font-bold text-2xl'>Frontend Development</h1>
 
+                <div className={styles.frontendContent}>
+                    <article className={styles.frontendDetails}>
+                        <span>
+                            <FontAwesomeIcon icon={faCheckCircle} color='golden' />
+                        </span>
+
+                    </article>
+                </div>
             </div>
         </div>
     );
