@@ -8,6 +8,7 @@ import Details from './components/Home/Details';
 import Announcement from './components/Shared/Announcement';
 import Blogs from './components/Blogs';
 import Footer from './components/Shared/Footer';
+import Experience from './components/Experience/Experience';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/blogs' element={<Blogs />}></Route>
+
         <Route path='/project/:id' element={<Details />}></Route>
       </Routes>
       <Footer></Footer>
