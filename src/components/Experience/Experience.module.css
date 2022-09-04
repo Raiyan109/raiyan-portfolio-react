@@ -1,11 +1,55 @@
 .frontendContainer {
     border: 1px solid goldenrod;
     width: 500px;
-    height: 400px;
+    height: 450px;
     border-radius: 30px;
+    padding: 2.4rem 2rem;
 }
 
 .frontendContainer:hover {
     background-color: goldenrod;
     color: #000;
+    transition: all 300ms ease-in-out;
+    opacity: .7;
+}
+
+.frontendContainer h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.backendContainer {
+    border: 1px solid goldenrod;
+    width: 500px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 2.4rem 2rem;
+}
+
+.backendContainer:hover {
+    background-color: goldenrod;
+    color: #000;
+    transition: all 300ms ease-in-out;
+    opacity: .7;
+}
+
+.backendContainer h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.frontendContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.frontendDetails {
+    display: flex;
+    gap: 1rem;
+}
+
+.experienceFontAwesome {
+    margin-top: 9px;
 }
