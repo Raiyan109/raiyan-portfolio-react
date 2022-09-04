@@ -5,12 +5,12 @@ import React from 'react';
 import styles from './Experience.module.css'
 const Experience = () => {
     return (
-        <div className=' items-center justify-center '>
+        <div className={styles.container}>
 
-            <h1 className="text-3xl font-bold mt-10 mb-10">What skills I have</h1>
-            <h1 className="text-5xl font-bold mt-10 mb-10">My Experiences</h1>
+            <h1 className="text-2xl font-bold mt-20 mb-10 text-center opacity-80">What skills I have</h1>
+            <h1 className="text-5xl font-bold mt-10 mb-10 text-center">My Experiences</h1>
 
-            <div className='grid grid-cols-2 gap-4'>
+            <div className={styles.experienceContainer}>
                 <div className={styles.frontendContainer}>
                     <h1 className='flex justify-center items-center pt-5 font-bold text-2xl'>Frontend Development</h1>
 

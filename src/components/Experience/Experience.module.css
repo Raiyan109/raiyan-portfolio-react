@@ -1,9 +1,19 @@
+.container {}
+
+.experienceContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
 .frontendContainer {
     border: 1px solid goldenrod;
-    width: 500px;
-    height: 450px;
+    width: 600px;
+    height: 550px;
     border-radius: 30px;
     padding: 2.4rem 2rem;
+    margin: 0 auto;
 }
 
 .frontendContainer:hover {
@@ -21,10 +31,11 @@
 
 .backendContainer {
     border: 1px solid goldenrod;
-    width: 500px;
-    height: 450px;
+    width: 600px;
+    height: 550px;
     border-radius: 30px;
     padding: 2.4rem 2rem;
+    margin: 0 auto;
 }
 
 .backendContainer:hover {
@@ -43,13 +54,56 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+
 }
 
 .frontendDetails {
     display: flex;
     gap: 1rem;
+    padding: 0px 50px;
 }
 
 .experienceFontAwesome {
     margin-top: 9px;
+}
+
+
+/* ********MEDIA QUERIES (medium device) */
+
+@media screen and (max-width : 1024px) {
+    .experienceContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .frontendContainer {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .backendContainer {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+/* ********MEDIA QUERIES (small device) */
+
+@media screen and (max-width : 600px) {
+    .frontendContainer {
+        height: 400px;
+    }
+
+    .backendContainer {
+        height: 400px;
+    }
 }
