@@ -9,5 +9,8 @@ gap: 15% ;
 
 
 
-### I have done this in about page
+### For Image
+- aspect-ratio: 1/1;
+- transform: rotate(10deg);
+- overflow : hidden;
 

@@ -4,4 +4,45 @@
     gap: 15%;
 }
 
-.aboutMe {}
+.aboutMe {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, goldenrod, transparent);
+    display: grid;
+    place-items: center;
+}
+
+.aboutMeImage {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: 0.5s ease-in-out;
+}
+
+.aboutMeImage:hover {
+    transform: rotate(0);
+
+}
+
+.aboutCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.aboutCard {
+    /* background-color: #000; */
+    border: 1px solid goldenrod;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.aboutCard:hover {
+    background-color: goldenrod;
+    /* border-color: goldenrod; */
+    color: #000;
+    transition: all 300ms ease-in-out;
+    opacity: .7;
+}
