@@ -2,6 +2,11 @@ import React from 'react';
 import styles from './About.module.css'
 import image from '../../assets/images/photostudio-2-designify (1).png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAward, faFolder, faUser, faUsers } from '@fortawesome/free-solid-svg-icons';
+
+
+
 const About = () => {
     return (
         <div>
@@ -13,6 +18,32 @@ const About = () => {
                     <div className={styles.aboutMeImage}>
                         <img src={image} alt="" />
                     </div>
+                </div>
+
+                <div className={styles.aboutContent}>
+                    <div className={styles.aboutCards}>
+                        <article className={styles.aboutCard}>
+                            <FontAwesomeIcon icon={faAward} className={styles.aboutIcon} />
+                            <h5>Experience</h5>
+                            3 + Years Working
+                        </article>
+                        <article className={styles.aboutCard}>
+                            <FontAwesomeIcon icon={faUser} className={styles.aboutIcon} />
+                            <h5>Clients</h5>
+                            200+ Worldwide
+                        </article>
+                        <article className={styles.aboutCard}>
+                            <FontAwesomeIcon icon={faFolder} className={styles.aboutIcon} />
+                            <h5>Projects</h5>
+                            80+ Completed
+                        </article>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum dolorum esse libero inventore mollitia natus iste voluptatibus eos porro perspiciatis omnis in aliquid, maxime qui quia alias magnam officiis?</p>
+
+                    <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg mt-5 border-x-4 border-amber-400">
+                        <a href="#contact">Let's Talk</a>
+                    </button>
                 </div>
             </div>
         </div>
