@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin: 2rem 3rem;
 }
 
 .aboutMe {
@@ -45,4 +46,87 @@
     color: #000;
     transition: all 300ms ease-in-out;
     opacity: .7;
+}
+
+.aboutIcon {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.aboutCard h5 {
+    font-size: 0.95rem;
+}
+
+.aboutCard small {
+    font-size: 0.7rem;
+    opacity: .8;
+}
+
+.aboutContent p {
+    margin: 2rem 0 2.6rem;
+    opacity: .9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********MEDIA QUERIES (medium device) */
+
+@media screen and (max-width : 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .aboutMe {
+        width: 50%;
+        /* padding: 2rem; */
+        margin: 2rem auto 4rem;
+    }
+
+    .aboutContent p {
+        margin: 1rem 0 1.5rem;
+        opacity: .9;
+    }
+}
+
+
+
+
+
+
+
+/* ********MEDIA QUERIES (small device) */
+
+@media screen and (max-width : 600px) {
+    .aboutMe {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .aboutCards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .aboutContent {
+        text-align: center;
+    }
+
+    .aboutContent p {
+        margin: 1.5rem 0;
+    }
 }

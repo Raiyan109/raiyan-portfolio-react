@@ -25,17 +25,17 @@ const About = () => {
                         <article className={styles.aboutCard}>
                             <FontAwesomeIcon icon={faAward} className={styles.aboutIcon} />
                             <h5>Experience</h5>
-                            3 + Years Working
+                            <small>3 + Years Working</small>
                         </article>
                         <article className={styles.aboutCard}>
                             <FontAwesomeIcon icon={faUser} className={styles.aboutIcon} />
                             <h5>Clients</h5>
-                            200+ Worldwide
+                            <small>200+ Worldwide</small>
                         </article>
                         <article className={styles.aboutCard}>
                             <FontAwesomeIcon icon={faFolder} className={styles.aboutIcon} />
                             <h5>Projects</h5>
-                            80+ Completed
+                            <small>80+ Completed</small>
                         </article>
                     </div>
 
